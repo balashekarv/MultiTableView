@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MultiTableView
 //
-//  Created by BALA SEKHAR on 19/11/19.
+//  Created by BALA SEKHAR RAJ on 19/11/19.
 //  Copyright © 2019 BALU. All rights reserved.
 //
 

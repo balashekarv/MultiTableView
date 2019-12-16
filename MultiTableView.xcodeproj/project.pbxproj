@@ -16,6 +16,7 @@
 		9CA1DB0C2383C7100060A03D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1DB0B2383C7100060A03D /* TableViewCell.swift */; };
 		9CA1DB0E2383C7780060A03D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1DB0D2383C7780060A03D /* DataModel.swift */; };
 		9CA1DB102383FD920060A03D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1DB0F2383FD920060A03D /* DetailViewController.swift */; };
+		9CD6C34523A7A1C3003AA7A0 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6C34423A7A1C3003AA7A0 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9CA1DB0B2383C7100060A03D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9CA1DB0D2383C7780060A03D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		9CA1DB0F2383FD920060A03D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9CD6C34423A7A1C3003AA7A0 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				9CA1DB0B2383C7100060A03D /* TableViewCell.swift */,
 				9CA1DB0D2383C7780060A03D /* DataModel.swift */,
 				9CA1DB0F2383FD920060A03D /* DetailViewController.swift */,
+				9CD6C34423A7A1C3003AA7A0 /* DemoViewController.swift */,
 			);
 			path = MultiTableView;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				9CA1DAFC2383C1AF0060A03D /* ViewController.swift in Sources */,
 				9CA1DB0C2383C7100060A03D /* TableViewCell.swift in Sources */,
 				9CA1DB102383FD920060A03D /* DetailViewController.swift in Sources */,
+				9CD6C34523A7A1C3003AA7A0 /* DemoViewController.swift in Sources */,
 				9CA1DAF82383C1AF0060A03D /* AppDelegate.swift in Sources */,
 				9CA1DAFA2383C1AF0060A03D /* SceneDelegate.swift in Sources */,
 			);
