@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C60ADAF23A8E05700AE2E62 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C60ADAE23A8E05700AE2E62 /* NewViewController.swift */; };
 		9CA1DAF82383C1AF0060A03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1DAF72383C1AF0060A03D /* AppDelegate.swift */; };
 		9CA1DAFA2383C1AF0060A03D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1DAF92383C1AF0060A03D /* SceneDelegate.swift */; };
 		9CA1DAFC2383C1AF0060A03D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1DAFB2383C1AF0060A03D /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C60ADAE23A8E05700AE2E62 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		9CA1DAF42383C1AE0060A03D /* MultiTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA1DAF72383C1AF0060A03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA1DAF92383C1AF0060A03D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				9CA1DB0D2383C7780060A03D /* DataModel.swift */,
 				9CA1DB0F2383FD920060A03D /* DetailViewController.swift */,
 				9CD6C34423A7A1C3003AA7A0 /* DemoViewController.swift */,
+				9C60ADAE23A8E05700AE2E62 /* NewViewController.swift */,
 			);
 			path = MultiTableView;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				9CA1DB0E2383C7780060A03D /* DataModel.swift in Sources */,
 				9CA1DAFC2383C1AF0060A03D /* ViewController.swift in Sources */,
 				9CA1DB0C2383C7100060A03D /* TableViewCell.swift in Sources */,
+				9C60ADAF23A8E05700AE2E62 /* NewViewController.swift in Sources */,
 				9CA1DB102383FD920060A03D /* DetailViewController.swift in Sources */,
 				9CD6C34523A7A1C3003AA7A0 /* DemoViewController.swift in Sources */,
 				9CA1DAF82383C1AF0060A03D /* AppDelegate.swift in Sources */,
