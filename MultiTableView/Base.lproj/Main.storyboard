@@ -173,20 +173,30 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKC-P5-BGX">
+                                <rect key="frame" x="147.5" y="577" width="80" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="J4o-GQ-6Xo" firstAttribute="leading" secondItem="mpA-te-Grb" secondAttribute="leading" constant="16" id="3Go-S2-MGf"/>
                             <constraint firstItem="JSc-SI-Bds" firstAttribute="leading" secondItem="mpA-te-Grb" secondAttribute="leading" constant="16" id="4Vh-wz-pns"/>
                             <constraint firstItem="h4T-ja-72V" firstAttribute="leading" secondItem="mpA-te-Grb" secondAttribute="leading" constant="16" id="7h8-HO-bbl"/>
+                            <constraint firstItem="eKC-P5-BGX" firstAttribute="centerX" secondItem="bbL-dH-tnF" secondAttribute="centerX" id="DVl-In-43w"/>
                             <constraint firstItem="mpA-te-Grb" firstAttribute="trailing" secondItem="JSc-SI-Bds" secondAttribute="trailing" constant="16" id="Feh-hW-822"/>
                             <constraint firstItem="h4T-ja-72V" firstAttribute="top" secondItem="JSc-SI-Bds" secondAttribute="bottom" constant="10" id="GcD-VH-XaJ"/>
                             <constraint firstItem="J4o-GQ-6Xo" firstAttribute="top" secondItem="h4T-ja-72V" secondAttribute="bottom" constant="13" id="HK6-df-uwx"/>
                             <constraint firstItem="JSc-SI-Bds" firstAttribute="top" secondItem="mpA-te-Grb" secondAttribute="top" constant="22" id="Lgq-HZ-4Sk"/>
+                            <constraint firstItem="eKC-P5-BGX" firstAttribute="top" secondItem="6Yz-UW-IWg" secondAttribute="bottom" constant="22" id="RJG-EB-Yj0"/>
                             <constraint firstItem="mpA-te-Grb" firstAttribute="trailing" secondItem="6Yz-UW-IWg" secondAttribute="trailing" constant="16" id="V4R-d7-8fQ"/>
                             <constraint firstItem="6Yz-UW-IWg" firstAttribute="leading" secondItem="mpA-te-Grb" secondAttribute="leading" constant="16" id="Y2I-ox-qey"/>
                             <constraint firstItem="6Yz-UW-IWg" firstAttribute="top" secondItem="J4o-GQ-6Xo" secondAttribute="bottom" constant="7" id="ZnA-NP-Rqg"/>
                             <constraint firstItem="mpA-te-Grb" firstAttribute="trailing" secondItem="h4T-ja-72V" secondAttribute="trailing" constant="16" id="bKR-QZ-5dV"/>
+                            <constraint firstItem="eKC-P5-BGX" firstAttribute="leading" secondItem="mpA-te-Grb" secondAttribute="leading" constant="147.5" id="cIl-0Y-UOT"/>
+                            <constraint firstItem="mpA-te-Grb" firstAttribute="trailing" secondItem="eKC-P5-BGX" secondAttribute="trailing" constant="147.5" id="iD5-ke-9b9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mpA-te-Grb"/>
                     </view>
@@ -254,6 +264,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0Q-sg-HQ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2055" y="-856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aLD-wY-HLw">
+            <objects>
+                <viewController id="lc9-nS-lEL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PLr-0O-4oR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="KuV-y7-ZMr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CU5-sA-qJF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2812" y="-565"/>
         </scene>
     </scenes>
 </document>
